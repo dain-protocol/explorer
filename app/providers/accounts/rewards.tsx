@@ -10,7 +10,6 @@ import React from 'react';
 
 const REWARDS_AVAILABLE_EPOCH = new Map<Cluster, number>([
     [Cluster.DAIN, 132],
-    [Cluster.Testnet, 43],
 ]);
 
 const PAGE_SIZE = 15;
