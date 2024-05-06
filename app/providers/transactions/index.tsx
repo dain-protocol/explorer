@@ -90,7 +90,7 @@ export async function fetchTransactionStatus(
             try {
                 blockTime = await connection.getBlockTime(value.slot);
             } catch (error) {
-                if (cluster === Cluster.MainnetBeta && confirmations === 'max') {
+                if (cluster === Cluster.DAIN && confirmations === 'max') {
                     console.error(error, { slot: `${value.slot}` });
                 }
             }

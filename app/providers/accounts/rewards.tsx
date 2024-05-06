@@ -9,7 +9,7 @@ import { Cluster } from '@utils/cluster';
 import React from 'react';
 
 const REWARDS_AVAILABLE_EPOCH = new Map<Cluster, number>([
-    [Cluster.MainnetBeta, 132],
+    [Cluster.DAIN, 132],
     [Cluster.Testnet, 43],
 ]);
 
