@@ -12,7 +12,7 @@ type Props = Readonly<{
 export async function generateMetadata(props: AddressPageMetadataProps): Promise<Metadata> {
     return {
         description: `Metadata for the Metaplex NFT with address ${props.params.address} on Solana`,
-        title: `Metaplex NFT Metadata | ${await getReadableTitleFromAddress(props)} | Solana`,
+        title: `Metaplex NFT Metadata | ${await getReadableTitleFromAddress(props)} | DAIN`,
     };
 }
 

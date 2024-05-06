@@ -1,6 +1,5 @@
 import { Stream } from '@cloudflare/stream-react';
 import { LoadingArtPlaceholder } from '@components/common/LoadingArtPlaceholder';
-import ErrorLogo from '@img/logos-solana/dark-solana-logo.svg';
 import { MetadataJson, MetaDataJsonCategory, MetadataJsonFile } from '@metaplex/js';
 import { PublicKey } from '@solana/web3.js';
 import { getLast } from '@utils/index';
@@ -10,7 +9,7 @@ import { useState } from 'react';
 
 export const MAX_TIME_LOADING_IMAGE = 5000; /* 5 seconds */
 
-const ErrorPlaceHolder = () => <Image src={ErrorLogo} width={120} height={120} alt="Solana Logo" />;
+const ErrorPlaceHolder = () => <Image src={"/dain.png"} width={120} height={120} alt="DAIN Logo" />;
 
 const ViewOriginalArtContentLink = ({ src }: { src: string }) => {
     if (!src) {

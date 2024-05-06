@@ -12,7 +12,7 @@ type Props = Readonly<{
 export async function generateMetadata(props: AddressPageMetadataProps): Promise<Metadata> {
     return {
         description: `Contents of the SPL Concurrent Merkle Tree at address ${props.params.address} on Solana`,
-        title: `Concurrent Merkle Tree | ${await getReadableTitleFromAddress(props)} | Solana`,
+        title: `Concurrent Merkle Tree | ${await getReadableTitleFromAddress(props)} | DAIN`,
     };
 }
 
