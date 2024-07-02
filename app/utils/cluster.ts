@@ -29,7 +29,7 @@ export function clusterName(cluster: Cluster): string {
     }
 }
 
-export const DAIN_RPC_URL = 'https://rpc.dain.bot';
+export const DAIN_RPC_URL = 'https://daintrader.com/rpc';
 
 export function clusterUrl(cluster: Cluster, customUrl: string): string {
     const modifyUrl = (url: string): string => {
